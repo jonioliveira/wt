@@ -39,6 +39,9 @@ homebrew_casks:
     homepage: https://github.com/jonioliveira/wt
     description: "Git worktrees with AI context"
     license: MIT
+    hooks:
+      post:
+        install: "xattr -dr com.apple.quarantine #{staged_path}"
 
 changelog:
   sort: asc
