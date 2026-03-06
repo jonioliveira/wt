@@ -1,0 +1,33 @@
+# Worktrees
+.worktrees/
+
+# Compiled binaries
+wt
+wt.exe
+*.exe
+
+# GoReleaser output
+dist/
+
+# Go test & coverage artifacts
+*.test
+coverage.out
+coverage.txt
+coverage.html
+
+# Go profiling
+*.prof
+
+# Go workspace (local experiments)
+go.work
+go.work.sum
+
+# macOS
+.DS_Store
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

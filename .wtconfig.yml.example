@@ -1,0 +1,11 @@
+# wt configuration
+# Files and directories to copy into each new worktree.
+# Paths are relative to the repository root.
+# Missing paths are silently skipped.
+copy:
+  - .claude/
+  - .serena/project.yml
+  - CLAUDE.md
+  # - .cursor/rules
+  # - .copilot/
+  # - .env.example
